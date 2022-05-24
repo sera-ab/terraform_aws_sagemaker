@@ -1,0 +1,7 @@
+include:
+  - '/variables.yml'
+  - '/jobs.yml'
+  - '/qa-environments.yml'
+  - '/uat-environments.yml'
+  - '/prod-environments.yml'
+
