@@ -1,0 +1,14 @@
+variables:
+  # Control
+  ENABLED: "true"
+  DANGEROUSLY_DESTROY: "false"
+  ALLOW_PROD_DEPLOY: "true"
+  # Path
+  PROJECT_NAME: ${terraform_aws_sagemaker}
+  PROJECT_ENVIRONMENTS_ROOT: envs
+  TF_ROOT: /builds/${terraform_aws_sagemaker_NAMESPACE}/${PROJECT_NAME}
+  PLAN: plan.tfplan
+  JSON_PLAN_FILE: tfplan.json
+  # TF_VARS
+  TF_VAR_gitlab_ci_job_token: ${JOB_TOKEN}
+  TF_VAR_environment: ${ENVIRONMENT_NAME}
