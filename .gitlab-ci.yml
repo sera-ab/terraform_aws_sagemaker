@@ -1,0 +1,7 @@
+variables:
+  PROJECT_NAME: sagemaker-infra
+
+include:
+  - project: 'sera-ab/terraform_aws_sagemaker'
+    file: 'environments.yml'
+#    ref: 'fix-mutiple-pipeline-warnings'
