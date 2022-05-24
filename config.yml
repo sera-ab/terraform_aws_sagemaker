@@ -1,0 +1,21 @@
+users:
+  - name: user1
+    env:
+      - uat
+    size: ml.m5.2xlarge
+
+  - name: user2
+    env:
+      - uat
+      - prod
+    size: ml.m5.2xlarge   
+
+  - name: user3
+    env:
+      - uat
+    size: ml.m5.2xlarge      
+
+  - name: user4
+    env:
+      - uat
+    size: ml.m5.2xlarge 
